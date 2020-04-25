@@ -49,6 +49,7 @@ def true_import_star():
     loaded = load(data)
     print(loaded)
 
+
 def false_class_dot_load():
     class Test:
         def __init__(self):
@@ -58,6 +59,6 @@ def false_class_dot_load():
             return x + "asd"
 
     data = input()
-    test = Test()
-    loaded = test.load(data)
+    yaml = Test()
+    loaded = yaml.load(data)
     print(loaded)
