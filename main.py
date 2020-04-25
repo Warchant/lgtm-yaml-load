@@ -41,3 +41,10 @@ def true_import_from_as_rename():
     data = input()
     loaded = ld(data)
     print(loaded)
+
+
+def true_import_star():
+    from yaml import *
+    data = input()
+    loaded = load(data)
+    print(loaded)
